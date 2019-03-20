@@ -22,7 +22,7 @@ A solution set is:
  */
 var threeSum = function(nums) {
     // 先给数组进行排序
-    nums.sort((a, b) => a - b)
+    nums.sort((a, b) => a - b);
     // 建立一个空数组，存放结果
     var ans = [];
     len = nums.length;
